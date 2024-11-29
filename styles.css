@@ -11027,18 +11027,35 @@ p {
 .address strong {
   font-size: 1.2rem;
 }
-input[name="esc"] {
-  background-color: #d2b48c; 
-  border: 2px solid #4b3621; 
-  padding: 10px 20px;
-  font-size: 16px;
-  font-weight: bold;
-  border-radius: 5px;
-  cursor: pointer;
-  transition: all 0.3s ease;
-}
+  input[type="submit"] {
+            background-color: #d2b48c; 
+            color: #4b3621; 
+            border: 2px solid #4b3621; 
+            padding: 10px 20px;
+            font-size: 16px;
+            font-weight: bold;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
 
-input[name="esc"]:hover {
-  background-color: #4b3621; 
-  border-color: #f8f1e7; 
-}
+        input[type="submit"]:hover {
+            background-color: #4b3621; 
+            color: #f8f1e7; 
+            border-color: #f8f1e7; 
+        }
+        input[name="esc"] {
+          background-color: #d2b48c; 
+          border: 2px solid #4b3621; 
+          padding: 10px 20px;
+          font-size: 16px;
+          font-weight: bold;
+          border-radius: 5px;
+          cursor: pointer;
+          transition: all 0.3s ease;
+        }
+        
+        input[name="esc"]:hover {
+          background-color: #4b3621; 
+          border-color: #f8f1e7; 
+        }
